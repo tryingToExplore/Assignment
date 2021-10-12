@@ -36,7 +36,7 @@ class Link extends React.Component{
 
 
     render(){
-        const { numberOfLinks, data, externalLinks,internalLinks } = this.state;
+        const { externalLinks,internalLinks } = this.state;
         console.log( internalLinks.length, "array");
         // return  internalLinks.map((links) => {
             return(

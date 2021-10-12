@@ -35,7 +35,7 @@ componentDidMount(){
 
 
 renderPostData(){
-    const {posts,Pages,Tags,Authors} = this.state;
+    const {posts} = this.state;
     if(posts) {
         return(
             <div>
@@ -46,7 +46,7 @@ renderPostData(){
      }
 
      renderPagesData(){
-        const {posts,Pages,Tags,Authors} = this.state;
+        const {Pages} = this.state;
         if(Pages) {
             return(
                 <div>
@@ -58,7 +58,7 @@ renderPostData(){
 
 
      renderTagsData(){
-            const {posts,Pages,Tags,Authors} = this.state;
+            const {Tags} = this.state;
             if(Tags) {
                 return(
                     <div>
@@ -69,7 +69,7 @@ renderPostData(){
              }
 
      renderAuthorsData(){
-                const {posts,Pages,Tags,Authors} = this.state;
+                const {Authors} = this.state;
                 if(Authors) {
                     return(
                         <div>
@@ -106,7 +106,7 @@ renderPostData(){
 
 
 render() {
-    const {posts,Pages,Tags,Authors} = this.state;
+    const {posts} = this.state;
     console.log(posts,"posts");
     return(
      <>
@@ -135,9 +135,7 @@ render() {
                 {this.renderPublishedPostlist()}
         </div>
         <div className="blog-title-block">
-            {/* {this.MyChart()} */}
             <Charts />
-                {/* {this.renderPublishedPostlist()} */}
         </div>
         </div>
      </>

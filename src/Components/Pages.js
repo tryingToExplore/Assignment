@@ -63,7 +63,7 @@ class Pages extends React.Component{
 
 
     render(){
-        const {data , dataWithoutDescription, longDescription, longUrl ,featureImage,tooLong,tooShort} = this.state;
+        const { dataWithoutDescription, longDescription, longUrl ,featureImage,tooLong,tooShort} = this.state;
         console.log(tooShort,"longDescription");
         return(
             <>
