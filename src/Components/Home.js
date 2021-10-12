@@ -5,19 +5,12 @@ class Home extends React.Component{
 
     render(){
         return(
-            <div class="nav">
-       
-  
-  <div class="nav-links">
-    <a href="/">Home</a>
-    <a href="/blog">Blog</a>
-    <a href="/link">Link</a>
-    <a href="/pages" >Pages</a>
-  </div>
-</div>
+            <div class="">
+                <h1>Welcome to My Blog</h1>
+            </div>
             
         )
     }
 }
 
-export default Home
+export default Home;

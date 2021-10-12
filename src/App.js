@@ -3,12 +3,14 @@ import './App.css';
 import Blog from './Components/Blog';
 import Link from './Components/Links';
 import Pages from './Components/Pages';
+import Header from './Components/Header';
 import Home from './Components/Home';
 import { Route , BrowserRouter   as Router, Switch} from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
+        <Header />
      <Router>
         <Switch>
         <Route exact path='/'>
